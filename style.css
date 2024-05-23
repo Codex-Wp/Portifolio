@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav{
+    display: flex;
+    margin: 0 auto;
+    justify-content: space-around;
+    padding: 10px 40px;
+}
+
+.container{
+    display: flex;
+    margin: 0 auto;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 225px 225px 50px 225px;
+    
+}
+
+span{
+    display: block;
+    width: 31%;
+    height: 7px;
+    background-color: black;
+}
